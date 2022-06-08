@@ -2,9 +2,9 @@ from selenium import webdriver
 import time
 import urllib.request
 
-search = "고양이"
-fileName = "cat_image"
-number = 30
+search = "쥐"
+fileName = "mouse_image"
+number = 100
 interval = 0.2
 
 driver = webdriver.Chrome("./chromedriver")
